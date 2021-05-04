@@ -20,7 +20,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class MainActivity extends AppCompatActivity {
     // !!!! Установите свой адрес сервера !!!!
-    public static String URL="http://set.you.ip.addr:8080";
+    public static String URL="http://192.168.1.7:8082";
     EditText name,age;
     Button get,send;
     TextView list;
